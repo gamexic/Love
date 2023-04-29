@@ -25,6 +25,30 @@ img {
 	object-fit: fill;
   overflow: hidden;
 }
+h1 {
+  font-size: 3.5rem;
+  color: var(--red);
+}
+h2 {
+  font-size: 2.5rem;
+  color: var(--red);
+}
+h3 {
+  font-size: 1.8rem;
+  color: var(--red);
+}
+h4 {
+  font-size: 1.5rem;
+  color: var(--red);
+}
+p {
+	color: var(--pink);
+	font-size: 1.6rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 500;
+	letter-spacing: 0.05rem;
+}
 :root {
   --red: #FF0000;
   --pink: violet;
@@ -193,6 +217,52 @@ img {
 }
 
 
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  text-align: center;
+}
+.about-container h1 {
+  margin-bottom: 20px;
+  letter-spacing: 0.1rem;
+  color: var(--pink);
+  border-bottom: 1px solid var(--red);
+  padding: 0px 4px;
+}
+.about-container .about-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0px 12px;
+  margin-bottom: 20px;
+}
+.about-container .about-items .about-item {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+.about-container .about-items .about-item p {
+  margin-bottom: 12px;
+}
+.about-container .about-items .about-item img {
+  width: 100%;
+  max-width: 425px;
+}
 
 
 
