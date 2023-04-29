@@ -280,10 +280,11 @@ p {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  max-width: 1200px;
+  max-width: 800px;
 }
 .gallery-container .photos-container {
   width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
